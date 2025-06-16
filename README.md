@@ -100,35 +100,37 @@ Accuracy: 0.98
            1       0.96      0.91      0.93       149
 
     accuracy                           0.98      1115
-▶️ How to Run the Project
+```
+---
+## ▶️ How to Run the Project
 1. Clone the Repository
+```text
 bash
-Copy
-Edit
 git clone https://github.com/your-username/email-spam-classifier.git
 cd email-spam-classifier
+```
+
 2. Install Dependencies
+```text
 bash
-Copy
-Edit
 pip install -r requirements.txt
-3. Train the Model (Optional if model.pkl exists)
+```
+
+2. Train the Model (Optional if model.pkl exists)
+```text
 bash
-Copy
-Edit
 python train_model.py
-4. Launch the Streamlit App
+```
+
+3. Launch the Streamlit App
+```text
 bash
-Copy
-Edit
 streamlit run app.py
-📌 Key Features
+```
+---
+## 📌 Key Features
 ✅ Full ML pipeline: from raw data to prediction
-
 🌐 Easy-to-use Streamlit interface
-
 📈 Real-time prediction logging
-
 🚀 Lightweight and fast to deploy
-
 💡 Great starter project for ML and Streamlit beginners
