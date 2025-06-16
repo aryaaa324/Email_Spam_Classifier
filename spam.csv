@@ -1,0 +1,9 @@
+import pandas as pd
+
+# Correct file path to the dataset
+df = pd.read_csv("C://Users//91971//email_data//spam.csv", sep='\t', header=None, names=["v1", "v2"])
+
+# Save the cleaned dataset as spam.csv
+df.to_csv("spam.csv", index=False)
+print("✅ spam.csv created.")
+print(df.head())
